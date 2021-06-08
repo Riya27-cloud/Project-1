@@ -21,13 +21,13 @@ const server = http.createServer((req, res) => {
     if (url = "/index.html") {
         res.end(home);
     }
-    else if (url == "/about") {
+    else if (url == "/about.html") {
         res.end(about);
     }
-    else if (url == "/services") {
+    else if (url == "/services.html") {
         res.end(services);
     }
-    else if (url == "/contact") {
+    else if (url == "/contact.html") {
         res.end(contact);
     }
     else {
